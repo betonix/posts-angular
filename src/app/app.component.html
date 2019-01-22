@@ -1,0 +1,14 @@
+<div class="home-post">
+  <nav class="header">
+    <a (click)="addPost()"><i class="material-icons md-48"> library_add </i></a>
+  </nav>
+  <div class="example-container"></div>
+  <section>
+    <app-post
+      *ngFor="let post of Posts; let i = index"
+      [post]="post"
+      (deletePostEvent)="deletePost($event)"
+      (editPostEvent)="editPost($event)"
+    ></app-post>
+  </section>
+</div>

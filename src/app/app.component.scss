@@ -1,0 +1,20 @@
+.info-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.header {
+  display: flex;
+  height: 75px;
+  background-color: #a2abb3;
+  justify-content: flex-end;
+  align-items: center;
+  a {
+    cursor: pointer;
+  }
+}

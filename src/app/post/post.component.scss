@@ -1,0 +1,31 @@
+.example-card {
+  max-width: 360px;
+  min-width: 360px;
+  min-height: 360px;
+  margin: 12px;
+  position: relative;
+}
+.example-header-image {
+  background-size: cover;
+}
+.actions {
+  position: absolute;
+  top: -52px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  right: 0;
+  flex-direction: row-reverse;
+  button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #bfbfbf;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+  }
+}
+.header {
+  position: relative;
+}

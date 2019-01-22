@@ -1,0 +1,26 @@
+<h1 mat-dialog-title>POST</h1>
+<div mat-dialog-content>
+  <form class="info-card" [formGroup]="Form">
+    <mat-form-field>
+      <input matInput placeholder="Nome" formControlName="nome" />
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Titulo" formControlName="titulo" />
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Descrição" formControlName="desc" />
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="URL Imagem" formControlName="img" />
+    </mat-form-field>
+    <button
+      type="submit"
+      [disabled]="!this.Form.valid"
+      (click)="savePost()"
+      mat-button
+      color="primary"
+    >
+      SALVAR
+    </button>
+  </form>
+</div>
