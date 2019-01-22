@@ -1,6 +1,6 @@
 # Posts
 
-DEMO : https://betonix.github.io/demo-posts-angular#/
+DEMO : https://betonix.github.io/demo-post-angular#/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
 
